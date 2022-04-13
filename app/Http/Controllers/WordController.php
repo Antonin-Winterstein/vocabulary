@@ -9,7 +9,7 @@ class WordController extends Controller
 {
     public function index() 
     {
-        $words = Word::inRandomOrder()->paginate(10);
+        $words = Word::orderBy("created_at", "desc")->paginate(10);
         return view("words", compact("words"));
     }
 
