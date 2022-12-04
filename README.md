@@ -1,8 +1,8 @@
-# Création d'un CRUD pour du vocabulaire en anglais/français/coréen utilisant Laravel
+### Creation of a CRUD system for English/French/Korean vocabulary using Laravel
 
-Étant en apprentissage de la langue coréenne, ce petit projet personnel a été réalisé pour simplement ajouter de nouveaux mots de vocabulaire dans une liste et afin de pouvoir tous les voir. De plus, cela m'a permis d'appréhender le framework Laravel.
+Currently learning the Korean language, this small personal project was carried out to simply add new vocabulary words in a list in order to be able to see them all. In addition, it allowed me to understand the Laravel framework. [See more on my website](https://antoninwinterstein.com/vocabularylist).
 
-<b>Le projet comporte :</b>
+<b>The project includes:</b>
 
--   Une page d'accueil montrant les derniers mots ajoutés sous la forme d'un carrousel ainsi qu'un moyen de générer un mot aléatoire
--   Une page de vocabulaire montrant tous les mots présents dans la base de données avec la possibilité de filtrer les données par ordre de création croissant/décroissant ou de façon aléatoire. Mais aussi en fonction des catégories de mots (nom, verbe, adjectif, adverbe, autre). Ou tout simplement via une barre de recherche. On retrouve aussi la possibilité de créer, modifier ou supprimer un mot.
+- A home page showing the last words added in the form of a carousel as well as a way to generate a random word
+- A vocabulary page showing all the words present in the database with the possibility of filtering the data in ascending/descending order of creation or randomly. But also according to the categories of words (noun, verb, adjective, adverb, other). Or simply via a search bar. There is also the possibility of creating, modifying or deleting a word
